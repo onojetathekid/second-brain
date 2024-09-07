@@ -1,0 +1,88 @@
+HTTP(S) Load Balancer:
+***Forwarding Rule - It specifies an external IP address, port, and global target
+    HTTP(S) proxy.
+        - Clients (Browser) use the IP address and port to connect to the load
+          balancer.
+        - Each forwarding rule provides a single IP address that can be used in DNS
+          records for your application.
+        - The forwarding rule for an HTTP load balancer can only reference TCP ports
+          80 and 8080.
+        - The forwarding rule for an HTTPS load balancer can only reference TCP port
+        443.
+        - Type of forwarding rule required by external HTTP(S) load balancers
+          depends on which Network Service Tier.
+            NST:(Forwarding rule)
+            * Premium Tier : Highest performance: Traffic between the internet and VM
+              instances in your VPC network is routed by keeping it within Google's network as
+              much as possible.
+              - For services that need global availability.
+              - Unique to Google Cloud, cannot create duplicate of redundant
+              - Premium Tier is the default NST.
+              - Standard Tier - Cost optimized: Traffic between the internet and VM instances in
+                your VPC network is routed over the internet in general.
+            * Standard Tier: Cost optimized: Traffic between the internet and VM instances in
+              your VPC network is routed over the internet in general. Not the fastest, routed
+              over the internet in general. Delays are possible.
+              -For services hosted entirely within a region.
+              -Performance is comparable to other Cloud providers.
+              -HTTP(S) load balancers in the Standard Tier use regional external forwarding
+                rules.
+***** Target Proxy - It receives a request from the client. Client>>DNS Server>>
+        Serves Forwarding Rule/LB IP>>Target proxy.
+        -It evaluates the request by using the URL map to make traffic routing
+          decisions.
+        - Proxy can also authenticate communications by using SSL
+          certificates. Verify SSL then Forward
+        - If user is using HTTPS load balancing, the target proxy uses global
+          SSL certificates to prove its identity to clients.
+        - HTTP(S) proxy uses a global URL map to make a routing
+          determination based on HTTP attributes such as the request path,
+          cookies, or headers.
+        - The URL map can specify additional actions, such as sending
+          redirects to clients.
+
+***** URL Map - When a request arrives at the load balancer, the load balancer routes
+      the request to a particular backend service or backend bucket based on
+      configurations in a URL map.
+      - URL map lets you set up this type of host and path-based routing.
+      different services to different machines.
+      - Each URL map has a name.
+      - URL map has the same name as the name of the load balancer.
+      - URL Map has two components, Host name and path.
+
+***Example Beg****
+
+http://example.net/video/hd
+Host - example.net
+Path - /video/hd
+
+ FWd Rule>>Target HTTP(s) Proxy>>Host Rule>>Path Matcher>>Path rule>>Backend Service>>
+                Instance Groups/Network Endpoint Groups(NEGs)
+
+***Example End****
+
+***** Backend Services - It distributes requests to healthy backends
+        (instance groups containing Compute Engine VMs, GKE containers),
+        or Cloud Storage buckets.
+        - One or more backends must be connected to the backend service.
+        - Backend service can be either instance groups or network endpoint
+          groups (NEGs), but not a combination of both.
+        - User can enable connection draining on backend services to ensure
+          minimal interruption to your users when an instance that is serving
+          traffic is terminated, removed manually, or removed by an autoscaler
+        - Changes to a backend service associated with an external HTTP(S)
+          load balancer are not instantaneous. It can take several minutes for
+          changes to propagate throughout the network.
+
+
+***** Session Affinity - It’s a best-effort attempt to send requests
+          from a particular client to the same backend for as long as the
+          backend is healthy
+          - Google Cloud HTTP(S) Load Balancing offers three types of
+          session affinity:
+                - NONE. Session affinity is not set for the load balancer.
+                - Client IP affinity sends requests from the same client IP
+                address to the same backend.
+                - Generated cookie affinity sets a client cookie when the first
+                request is made, and then sends requests with that cookie to
+                the same backend.

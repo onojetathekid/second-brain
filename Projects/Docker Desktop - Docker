@@ -1,0 +1,49 @@
+#Instructions
+# docker --help
+# docker image -help
+# docker image build -t web1 .
+
+#Now let's actually make this thing work.
+#1 Open your docker app on your computer.
+#2 docker image build -t web1 .
+#3 if you have an error, it means you didn't do #1
+#4 docker image inspect web1
+#5 docker image ls
+#5 docker image rm web1
+::::::::::::::::::
+#7 docker scout quickview #get more image info
+#8 docker run --name mywebcontainter -d web2 #run the containter from cli
+
+
+
+
+_init_.py
+app.py
+Dockerfile
+requirements
+instructions
+
+:::::::::: Docker File :::::::::::
+# Updates:
+#   Nov 2019: Update base Docker image to use a more recent version of Python
+#             You can also use python:3.7.5-slim-buster for a Debian image
+
+#here, we want to specify the programming language and OS. Go look at Dockerhubfor most current version
+FROM python:3.7.5-alpine `//`
+
+#we need a folder for the app
+RUN mkdir /dockerapp1
+WORKDIR /dockerapp1
+
+#You need this for instructions
+COPY requirements.txt requirements.txt
+RUN pip install -r requirements.txt
+
+COPY . .
+
+#Use your info here
+LABEL maintainer="Malgus WAF <malgus.waf@gmail.com>" \
+      version="1.0"
+
+#default command when executed
+CMD flask run --host=0.0.0.0 --port=5000

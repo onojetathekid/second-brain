@@ -1,0 +1,41 @@
+
+
+
+Load Balancer function is to distributes user traffic across
+multiple instances of application. distributes across 5 nodes for example
+all traffic via LB and manage load especially during heavy traffic periods
+
+- Load Balancing reduce rick app get overburdened
+- CLB serve content close as possible to the users of the system.
+- CLB is a Global entity, trying to serve europe traffic to europe servers
+- CLB is fully distributed, software defined, logical network entity.
+- LB coupled with IG to support HA environment and Auto Scaling.
+-
+Types of LB;
+External -
+-used to get internet traffic in and out of your VPC.
+-communicate over 2 vpc networks need External LB
+-any external communication from VPC to external networks or internet
+    *Global - backends distributed across multiple Regions
+      -http/https
+      -ssl Proxy
+      -tcp proxy
+    *Regional - backends are in 1 region
+      -network
+- Get traffic from the internet into GCCPC network
+
+Internal - distributes traffic from internal GCP regional
+    *Internal LB distribute traffic to instance inside of single VPC Network
+      -TCP traffic
+      -UDP traffic
+        Internal TCP/UDP LB handles all TCP/UDP Traffic for V
+      -Http/Https Traffic
+        Internal HTTP(S) LB - all calls for internally for VPC
+
+** External traffic **
+
+HTTP/HTTPS LB - Most Used & Most Powerful LB In GC - Application OSI Layer
+
+
+HTTP(S) load balancer is external GLOBAL Load balancer
+HTTP(S) load balancer user multiple backend types

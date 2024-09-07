@@ -1,0 +1,59 @@
+
+
+Instance Template : used to create VM and Managed Instance Groups
+all info needed to create instance in gcp
+Defines:
+Machine type
+boot disk image or container image
+labels
+other instance properties
+
+VM instance configuration saved to later use
+
+Template is a global resource
+
+
+Use wen you want to create quickly based on pre-existing configuration
+
+Identical configurations templates are unique, cannot change... (to change
+create a new template?)
+
+Lab Instance Templates:
+1. cerate instance template
+2. Name of instance
+3. Location: Regional/Global?
+4. Region = us-central1
+5. Machine type = N1-stardard-2
+6. Boot Disk = Debian GNU/Linux 12 (bookworm)
+7. identity and API Access / allow default Access
+8.
+9.
+
+Instance Group - collection of VM's, managed as a single identity
+Managed IG
+Unmanaged IG
+
+Managed IG :
+a. create multiple Identical VMs
+b. typically used with Load Balancers
+c. any change to IG changes all VM's
+
+MIG Advantages:
+a. any VM part of MIG, crashes, the VM will be automatically recreated per Template
+b. Auto Healing via Health-Check - set up auto healing policy, periodically verifies
+    the app responds as expected on each MIG instance, if not.. VM is automatically recreated
+c. Regional Coverage - Region MIG let spread app load across multiple zone,
+    protect zone failures if all are in 1 zone.
+d. Load Balancing = MIG work with Load-Balancing to spread the workload
+e. Scalability - if additional compute resources needed, auto scaled MIGs can
+    grow automatically & if demand drop, auto-scaled MIGs can automatically shrink.
+f. Automated Updates - MIGs automatic updater allows for safe deployment of new software
+    versions to instances. Cascade the updates on instances
+g. Support for stateful workloads - Beta - DNS, Long running batch computation .
+    Stateful MIGs preserve each instance unique state on Machine restart, recreation,
+    auto-healing or update.
+
+Unmanaged Instance Groups :
+a. dissimilar instances can be added or removed. Different configurations per instances
+b. No auto scaling, Auto Healing or Rolling Update features
+c. No recommended, on when need to use load balancers on existing configuration
