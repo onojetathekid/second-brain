@@ -11,11 +11,14 @@
             "id": "f6b8e76bd8f06d71",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Cloud DNS.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -85,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cloud DNS.md",
+                "file": "Untitled.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cloud DNS.md",
+                "file": "Untitled.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cloud DNS.md"
+                "file": "Untitled.canvas"
               }
             }
           }
@@ -147,12 +150,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f6b8e76bd8f06d71",
+  "active": "e9c8f3b68274f6e4",
   "lastOpenFiles": [
-    "Cloud DNS.md",
+    "Projects/CKAD",
+    "Projects/GCP/Cloud DNS.md",
     "Untitled.canvas",
     "test.md",
-    "Projects/GCP/CKAD Application Design and Build in Kubernetes.md",
+    "Projects/CKAD/CKAD Application Design and Build in Kubernetes.md",
     "Projects/GCP/Compute Engine Machine Types.md",
     "Projects/GCP/Cloud CDN - Content Delivery Network.md",
     "Projects/GCP",
