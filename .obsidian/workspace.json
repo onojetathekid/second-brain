@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b4c6318735aec10f",
+        "id": "61e957d0cf7fd02a",
         "type": "tabs",
         "children": [
           {
-            "id": "7af8d03c5e86bff9",
+            "id": "f6b8e76bd8f06d71",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test.md",
+                "file": "Cloud DNS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test.md",
+                "file": "Cloud DNS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test.md",
+                "file": "Cloud DNS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test.md"
+                "file": "Cloud DNS.md"
               }
             }
           }
@@ -147,19 +147,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e9c8f3b68274f6e4",
+  "active": "f6b8e76bd8f06d71",
   "lastOpenFiles": [
-    "CKAD Application Design and Build in Kubernetes.md",
+    "Cloud DNS.md",
+    "Untitled.canvas",
+    "test.md",
+    "Projects/GCP/CKAD Application Design and Build in Kubernetes.md",
     "Projects/GCP/Compute Engine Machine Types.md",
     "Projects/GCP/Cloud CDN - Content Delivery Network.md",
     "Projects/GCP",
-    "Untitled.canvas",
     "CDAD",
-    "Docker compose up -d.md",
-    "Untitled.md",
+    "Projects/Docker Compose/Docker compose up -d.md",
     "Welcome.md",
     "Projects/Docker Compose",
-    "Projects",
-    "test.md"
+    "Projects"
   ]
 }
