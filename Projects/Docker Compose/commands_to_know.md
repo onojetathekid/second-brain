@@ -1,6 +1,8 @@
 cofigcon# commnads for Tech
 
-
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Notes location : E:\GoogleBackedUPFolder\GCP 5.5\terrafrom_notes\second-brain\Projects
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ## Git Clone
 * From directory you want the files in:
 git clone https://github.com/onojetathekid/myfirstdockerfile.git
@@ -20,7 +22,9 @@ docker compos docker-compose.yml down // tears downthe containers
 docker container ps
 docker compose up/down - starts or kills the containers
 
-
+:::::::::::::::::: SSH Key Gen ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ssh-keygen -t rsa
 
 # :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ## Linux
