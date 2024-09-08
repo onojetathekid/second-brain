@@ -9,6 +9,8 @@ git clone https://github.com/onojetathekid/myfirstdockerfile.git
 ## Docker
 * Deleting all containers:
 Docker container rm -f $(docker ps -q -a)
+docker compose down --rmi all -v //destroy them all .. old containers etc... 
+
 
 ## Docker compose:
 docker compose docker-compose.yml up //build the continers off yaml Instructions
