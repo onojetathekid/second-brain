@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Git Actions & New Repository Secret Creation.md",
+                "file": "Projects/Docker Ultimate Course/Dockerfile.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Git Actions & New Repository Secret Creation.md",
+                "file": "Projects/Docker Ultimate Course/Dockerfile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Git Actions & New Repository Secret Creation.md",
+                "file": "Projects/Docker Ultimate Course/Dockerfile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Git Actions & New Repository Secret Creation.md"
+                "file": "Projects/Docker Ultimate Course/Dockerfile.md"
               }
             }
           },
@@ -158,7 +158,14 @@
   },
   "active": "834401c94450ea1c",
   "lastOpenFiles": [
+    "Pasted image 20240908165501.png",
+    "Projects/CKAD/KodeKloud-Linux VI.md",
+    "Projects/Docker Ultimate Course/Dockerfile.md",
+    "Projects/Apps/app.js.md",
+    "Projects/Docker Ultimate Course/[app.md",
+    "Projects/Apps",
     "Projects/Git Actions & New Repository Secret Creation.md",
+    "Projects/Docker Ultimate Course",
     "Untitled 2.canvas",
     "2024-09-08.md",
     "Untitled 1.canvas",
@@ -183,19 +190,12 @@
     "Projects/Kubernetes_Click-ops_7-12-24.md",
     "Untitled.canvas",
     "Projects/GCP/Cloud VPC Best Practices and Architectures.md",
-    "Projects/GCP/Cloud Router.md",
-    "Projects/GCP/Cloud Nat.md",
-    "Projects/GCP/Cloud Interconnect.md",
     "Projects/8-11-24-grafana-prometheis AAA",
-    "Projects/VPC_Network.md",
-    "Projects/vpc firewall rules.md",
     "Projects/variables.js",
     "Projects/Remo.Sat.5.11.24.js",
     "Projects/Professional Cloud Architect – Google Cloud Certification.pdf",
     "Projects/My_Questions",
     "Projects/may14-class-loadbalancers-theo.js",
-    "Projects/looping-maps.js",
-    "Projects/Load Balancing External & Internal",
-    "Projects/Load Balancing Equivalent Code.js"
+    "Projects/looping-maps.js"
   ]
 }
