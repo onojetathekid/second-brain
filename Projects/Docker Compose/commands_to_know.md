@@ -13,6 +13,8 @@ git clone https://github.com/onojetathekid/myfirstdockerfile.git
 Docker container rm -f $(docker ps -q -a)
 docker compose down --rmi all -v //destroy them all .. old containers etc... 
 
+* docker image pull -a thekid72/quizzo // pulls the image of docker hub to your local system.
+* docker run 
 
 ## Docker compose:
 docker compose docker-compose.yml up //build the continers off yaml Instructions

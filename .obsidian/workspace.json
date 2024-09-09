@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2a1bdf127be922e9",
+        "id": "a5836d6434c6d05b",
         "type": "tabs",
         "children": [
           {
-            "id": "834401c94450ea1c",
+            "id": "66f42ce6ea31095d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Git Actions & New Repository Secret Creation.md",
+                "file": "Projects/Docker Ultimate Course/Docker Images -.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Git Actions & New Repository Secret Creation.md",
+                "file": "Projects/Docker Ultimate Course/Docker Images -.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Git Actions & New Repository Secret Creation.md",
+                "file": "Projects/Docker Ultimate Course/Docker Images -.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Git Actions & New Repository Secret Creation.md"
+                "file": "Projects/Docker Ultimate Course/Docker Images -.md"
               }
             }
           },
@@ -156,15 +156,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "834401c94450ea1c",
+  "active": "66f42ce6ea31095d",
   "lastOpenFiles": [
+    "Projects/Docker Ultimate Course/Linux Hierarchy - File System.md",
+    "Projects/Docker Ultimate Course/Docker Images -.md",
+    "Projects/Docker Ultimate Course/Package Manger.md",
+    "Projects/Docker Ultimate Course/[app.md",
+    "Projects/Docker Ultimate Course/Linux Distros.md",
+    "Projects/Docker Ultimate Course/hub.docker.com.md",
     "Projects/Docker Ultimate Course/Dockerfile.md",
+    "Projects/Docker Ultimate Course/().md",
+    "Projects/Docker Compose/commands_to_know.md",
+    "Projects/Git Actions & New Repository Secret Creation.md",
     "Pasted image 20240908165501.png",
     "Projects/CKAD/KodeKloud-Linux VI.md",
     "Projects/Apps/app.js.md",
-    "Projects/Docker Ultimate Course/[app.md",
     "Projects/Apps",
-    "Projects/Git Actions & New Repository Secret Creation.md",
     "Projects/Docker Ultimate Course",
     "Untitled 2.canvas",
     "2024-09-08.md",
@@ -172,7 +179,6 @@
     "Projects/Docker Compose/Docker compose up -d.md",
     "Projects/Docker Compose/Docker compose.md",
     "Projects/Docker Compose/OpenCTI.md",
-    "Projects/Docker Compose/commands_to_know.md",
     "Projects/CKAD/KodeKloud-Application Basics.md",
     "Projects/Docker Compose/OpenCTI",
     "Projects/jenkins.md",
@@ -184,12 +190,7 @@
     "Projects/GCP/Cloud VPC Flow Logs.md",
     "Projects/GCP/Cloud VPN.md",
     "Projects/CKAD/CKAD-Application-Environment-Configuration-and-Security.md",
-    "Projects/CKAD/CKAD-Application Design_n_Build_K8S.md",
-    "Projects/CKAD/CKAD Application Design and Build in Kubernetes.md",
-    "Projects/CKAD/KodeKloud-Overview.md",
-    "Projects/Kubernetes_Click-ops_7-12-24.md",
     "Untitled.canvas",
-    "Projects/GCP/Cloud VPC Best Practices and Architectures.md",
     "Projects/8-11-24-grafana-prometheis AAA",
     "Projects/variables.js",
     "Projects/Remo.Sat.5.11.24.js",
