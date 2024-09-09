@@ -4,3 +4,6 @@ STEPS: (py, sharp, ruby) all follow the install & Manage dependencies and start 
 * npm install
 * npm start
 
+* npm update
+* npm upgrade
+* 
