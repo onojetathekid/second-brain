@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Docker Ultimate Course/Dockerfile.md",
+                "file": "Projects/Git Actions & New Repository Secret Creation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Docker Ultimate Course/Dockerfile.md",
+                "file": "Projects/Git Actions & New Repository Secret Creation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Docker Ultimate Course/Dockerfile.md",
+                "file": "Projects/Git Actions & New Repository Secret Creation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Docker Ultimate Course/Dockerfile.md"
+                "file": "Projects/Git Actions & New Repository Secret Creation.md"
               }
             }
           },
@@ -158,9 +158,9 @@
   },
   "active": "834401c94450ea1c",
   "lastOpenFiles": [
+    "Projects/Docker Ultimate Course/Dockerfile.md",
     "Pasted image 20240908165501.png",
     "Projects/CKAD/KodeKloud-Linux VI.md",
-    "Projects/Docker Ultimate Course/Dockerfile.md",
     "Projects/Apps/app.js.md",
     "Projects/Docker Ultimate Course/[app.md",
     "Projects/Apps",

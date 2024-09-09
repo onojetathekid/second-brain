@@ -24,6 +24,6 @@ docker build -t hello-docker .
  . // where docker can find the Dockerfile if in current directory
 
 * docker image ls // lists the images you have
-* docker run hello-docker // will run the app in a docker 
+* docker run hello-docker // will run the app in a docker container // now can run on any computer
 * docker container ls -a // see all containers running and stopped
 * 
