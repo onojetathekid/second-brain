@@ -7,6 +7,8 @@ app.js - simple nodejs script print's out Hello Docker
 * FROM node: alpine  - is the base image you want to use to build the container.
 	1. node - is different images/flavors of Linux
 	2. :alpine - is the tag added after the clone of the distribution version to use
+	3. images can be pulled from any repository but default is docker, specify specific registry with url link.
+	4. Note: research links as they could be old and out dates.. seek the latest.
 
 * COPY . /app  //copies the file from the current directory into a directory in the images filesystem in a directory called /app. The "." represents the current working directory(pwd)
 
