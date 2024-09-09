@@ -13,7 +13,13 @@ app.js - simple nodejs script print's out Hello Docker
 * WORKDIR /app // Sets the working directory and now all other instruction s will assume you are working form the /app directory.
  
 * CMD nod app.js  // Command instruction is used to execute a command
-*
+* ADD - 
+* RUN - 
+* ENV - 
+* EXPOSE - 
+* USER -
+* ENTRYPOINT - 
+
 ![[Pasted image 20240908165501.png]]
 
 # :::::: Package App @ Terminal ::::::
