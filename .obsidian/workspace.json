@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Docker Ultimate Course/Dockerfile.md",
+                "file": "Projects/Docker Ultimate Course/Sample Web Application.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Docker Ultimate Course/Dockerfile.md",
+                "file": "Projects/Docker Ultimate Course/Sample Web Application.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Docker Ultimate Course/Dockerfile.md",
+                "file": "Projects/Docker Ultimate Course/Sample Web Application.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Docker Ultimate Course/Dockerfile.md"
+                "file": "Projects/Docker Ultimate Course/Sample Web Application.md"
               }
             }
           },
@@ -219,6 +219,9 @@
   },
   "active": "b63e2cc05114e1ae",
   "lastOpenFiles": [
+    "Projects/Docker Ultimate Course/Package Manger.md",
+    "Projects/Docker Ultimate Course/Sample Web Application.md",
+    "Projects/Docker Ultimate Course/Dockerfile.md",
     "Pasted image 20240908165501.png",
     "Projects/Dockerfile Explained.md",
     "2024-09-08.md",
@@ -239,11 +242,9 @@
     "Projects/GCP/vpc firewall rules.md",
     "Projects/Docker Ultimate Course/Docker Images -.md",
     "Projects/Docker Ultimate Course/Linux Hierarchy - File System.md",
-    "Projects/Docker Ultimate Course/Package Manger.md",
     "Projects/Docker Ultimate Course/[app.md",
     "Projects/Docker Ultimate Course/Linux Distros.md",
     "Projects/Docker Ultimate Course/hub.docker.com.md",
-    "Projects/Docker Ultimate Course/Dockerfile.md",
     "Projects/Docker Ultimate Course/().md",
     "Projects/Docker Compose/commands_to_know.md",
     "Projects/Git/Git Actions & New Repository Secret Creation.md",
