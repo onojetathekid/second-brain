@@ -24,7 +24,7 @@ app.js - simple nodejs script print's out Hello Docker
 * ADD -              
 * RUN -  npm install                   // execute command that would run in the terminal
 * RUN apt install python            // this "alpine" version of linux has "apk" as the package m                                                                 manager not "apt"
-* ENV - API_URL=http://api.myapp.com         //@cli to see env. variables // printenv //  printenv                                                                            API_URL  // echo $API_URL
+* ENV API_URL=http://api.myapp.com         //@cli to see env. variables // printenv //  printenv     ENV  API_URL http//api.myapp.com             API_URL  // echo $API_URL // front end app needs                                                                         to talk to a backend or an API
 * EXPOSE - 
 * USER -
 * ENTRYPOINT - 
