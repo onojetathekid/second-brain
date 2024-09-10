@@ -34,6 +34,9 @@ ssh-keygen -t rsa
 * File created and move into File
 mkdir june25 && cd june25
 
+* Alpine has the old skool shell / sh
+* addgroup app
+* adduser -S -G app app
 
 # ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ## PIP Upgrade ##

@@ -8,79 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "66f42ce6ea31095d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/GCP/VPC_Network.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1ac7e9ac3fba5785",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/GCP/vpc firewall rules.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5a71b279b6a181d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/GCP/Shared VPC.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0ca35b385eb59cb0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/GCP/VPC_Network.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3624248a212e392b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/GCP/VPC_Network.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b63e2cc05114e1ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Docker Ultimate Course/Dockerfile.md",
+                "file": "Projects/Random Notes/commands_to_know.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Docker Ultimate Course/Dockerfile.md",
+                "file": "Projects/Random Notes/commands_to_know.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Docker Ultimate Course/Dockerfile.md",
+                "file": "Projects/Random Notes/commands_to_know.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Docker Ultimate Course/Dockerfile.md"
+                "file": "Projects/Random Notes/commands_to_know.md"
               }
             }
           },
@@ -219,8 +158,12 @@
   },
   "active": "b63e2cc05114e1ae",
   "lastOpenFiles": [
-    "Projects/Docker Ultimate Course/Sample Web Application.md",
     "Projects/Docker Ultimate Course/Dockerfile.md",
+    "Projects/Random Notes/commands_to_know.md",
+    "Projects/GCP/VPC_Network.md",
+    "Projects/GCP/Shared VPC.md",
+    "Projects/GCP/vpc firewall rules.md",
+    "Projects/Docker Ultimate Course/Sample Web Application.md",
     "Projects/Git/Git Actions & New Repository Secret Creation.md",
     "Projects/Docker Ultimate Course/Untitled.md",
     "Projects/Docker Ultimate Course/Package Manger.md",
@@ -236,19 +179,15 @@
     "Projects/Random Notes",
     "Projects/GCP/Managing Instances.md",
     "Projects/GCP/system-design-consideration.md",
-    "Projects/GCP/Shared VPC.md",
     "Projects/Git",
     "Projects/Git.md",
     "Projects/GCP/Routing and Private Google Access.md",
-    "Projects/GCP/VPC_Network.md",
-    "Projects/GCP/vpc firewall rules.md",
     "Projects/Docker Ultimate Course/Docker Images -.md",
     "Projects/Docker Ultimate Course/Linux Hierarchy - File System.md",
     "Projects/Docker Ultimate Course/[app.md",
     "Projects/Docker Ultimate Course/Linux Distros.md",
     "Projects/Docker Ultimate Course/hub.docker.com.md",
     "Projects/Docker Ultimate Course/().md",
-    "Projects/Docker Compose/commands_to_know.md",
     "Projects/Apps",
     "Projects/Docker Ultimate Course",
     "Untitled 1.canvas",

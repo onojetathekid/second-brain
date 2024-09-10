@@ -21,12 +21,16 @@ app.js - simple nodejs script print's out Hello Docker
 * WORKDIR /app // Sets the working directory and now all other instruction s will assume you are working form the /app directory.
  
 * CMD nod app.js  // Command instruction is used to execute a command
-* ADD -              
-* RUN -  npm install                   // execute command that would run in the terminal
-* RUN apt install python            // this "alpine" version of linux has "apk" as the package m                                                                 manager not "apt"
+* ADD addgroup app && adduser -S -G app app     // adding a group and adding a user to the                                                                                        group.  Then we can define the USER
+* RUN -  npm install                                                   // execute command that would run in the                                                                                        terminal
+* RUN apt install python                                            // this "alpine" version of linux has "apk" as                                                                                       the package manager not "apt"
 * ENV API_URL=http://api.myapp.com         //@cli to see env. variables // printenv //  printenv     ENV  API_URL http//api.myapp.com             API_URL  // echo $API_URL // front end app needs                                                                         to talk to a backend or an API
-* EXPOSE - 
-* USER -
+* EXPOSE <PORT> / EXPOSE 3000               // This is more of documentation, this doesn NOT set                                                                        the port on the container to run on 3000
+
+
+
+* USER app                                                   //  default docker uses root user with all privilege's //                                                                          created a group and a user with the ADD command in                                                                      the Dockerfile 
+
 * ENTRYPOINT - 
 
 ![[Pasted image 20240908165501.png]]
