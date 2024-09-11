@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Random Notes/commands_to_know.md",
+                "file": "Class 6/Zoom Passcode.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Random Notes/commands_to_know.md",
+                "file": "Class 6/Zoom Passcode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Random Notes/commands_to_know.md",
+                "file": "Class 6/Zoom Passcode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Random Notes/commands_to_know.md"
+                "file": "Class 6/Zoom Passcode.md"
               }
             }
           },
@@ -158,8 +158,10 @@
   },
   "active": "b63e2cc05114e1ae",
   "lastOpenFiles": [
-    "Projects/Docker Ultimate Course/Dockerfile.md",
     "Projects/Random Notes/commands_to_know.md",
+    "Class 6/Zoom Passcode.md",
+    "Class 6",
+    "Projects/Docker Ultimate Course/Dockerfile.md",
     "Projects/GCP/VPC_Network.md",
     "Projects/GCP/Shared VPC.md",
     "Projects/GCP/vpc firewall rules.md",
@@ -187,7 +189,6 @@
     "Projects/Docker Ultimate Course/[app.md",
     "Projects/Docker Ultimate Course/Linux Distros.md",
     "Projects/Docker Ultimate Course/hub.docker.com.md",
-    "Projects/Docker Ultimate Course/().md",
     "Projects/Apps",
     "Projects/Docker Ultimate Course",
     "Untitled 1.canvas",
@@ -196,7 +197,6 @@
     "Projects/8-11-24-grafana-prometheis AAA",
     "Projects/variables.js",
     "Projects/Remo.Sat.5.11.24.js",
-    "Projects/GCP/Professional Cloud Architect – Google Cloud Certification.pdf",
-    "Projects/My_Questions"
+    "Projects/GCP/Professional Cloud Architect – Google Cloud Certification.pdf"
   ]
 }
