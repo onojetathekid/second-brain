@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class 6/Zoom Passcode.md",
+                "file": "Projects/Docker Ultimate Course/Sample Web Application.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Class 6/Zoom Passcode.md",
+                "file": "Projects/Docker Ultimate Course/Sample Web Application.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Class 6/Zoom Passcode.md",
+                "file": "Projects/Docker Ultimate Course/Sample Web Application.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Class 6/Zoom Passcode.md"
+                "file": "Projects/Docker Ultimate Course/Sample Web Application.md"
               }
             }
           },
@@ -158,17 +158,17 @@
   },
   "active": "b63e2cc05114e1ae",
   "lastOpenFiles": [
-    "Projects/Random Notes/commands_to_know.md",
-    "Class 6/Zoom Passcode.md",
-    "Class 6",
     "Projects/Docker Ultimate Course/Dockerfile.md",
+    "Projects/Docker Ultimate Course/Sample Web Application.md",
+    "Projects/Docker Ultimate Course/Package Manger.md",
+    "Class 6/Zoom Passcode.md",
+    "Projects/Random Notes/commands_to_know.md",
+    "Class 6",
     "Projects/GCP/VPC_Network.md",
     "Projects/GCP/Shared VPC.md",
     "Projects/GCP/vpc firewall rules.md",
-    "Projects/Docker Ultimate Course/Sample Web Application.md",
     "Projects/Git/Git Actions & New Repository Secret Creation.md",
     "Projects/Docker Ultimate Course/Untitled.md",
-    "Projects/Docker Ultimate Course/Package Manger.md",
     "Pasted image 20240908165501.png",
     "Projects/Dockerfile Explained.md",
     "2024-09-08.md",
