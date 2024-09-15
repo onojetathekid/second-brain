@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Docker Ultimate Course/Dockerignore.md",
+                "file": "Projects/Docker Ultimate Course/Sample Web Application.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Docker Ultimate Course/Dockerignore.md",
+                "file": "Projects/Docker Ultimate Course/Sample Web Application.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Docker Ultimate Course/Dockerignore.md",
+                "file": "Projects/Docker Ultimate Course/Sample Web Application.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Docker Ultimate Course/Dockerignore.md"
+                "file": "Projects/Docker Ultimate Course/Sample Web Application.md"
               }
             }
           },
@@ -157,13 +157,13 @@
   },
   "active": "b63e2cc05114e1ae",
   "lastOpenFiles": [
-    "Projects/Docker Ultimate Course/Dockerfile.md",
+    "Projects/Random Notes/commands_to_know.md",
     "Projects/Docker Ultimate Course/Dockerignore.md",
+    "Projects/Docker Ultimate Course/Dockerfile.md",
     "Projects/Docker Ultimate Course/Sample Web Application.md",
     "Projects/Git/Git Actions & New Repository Secret Creation.md",
     "Projects/Docker Ultimate Course/Package Manger.md",
     "Class 6/Zoom Passcode.md",
-    "Projects/Random Notes/commands_to_know.md",
     "Class 6",
     "Projects/GCP/VPC_Network.md",
     "Projects/GCP/Shared VPC.md",
