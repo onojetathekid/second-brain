@@ -65,7 +65,16 @@ docker image save  -o react-app.tar react-app:3
 //load  image from image compressed file
 docker image load -i react-app.tar
 
+// to give a name to the container 
+{
+<-d> is for run in background
+<--name> is the give a name to the container
+}
+docker run -d  --name blue-sky react-app:3
 
+
+::::::::::::: Viewing Logs :::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 
