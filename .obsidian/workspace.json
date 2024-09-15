@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Docker Ultimate Course/Docker Images -.md",
+                "file": "Projects/Docker Ultimate Course/Containers in More Details.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Docker Ultimate Course/Docker Images -.md",
+                "file": "Projects/Docker Ultimate Course/Containers in More Details.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Docker Ultimate Course/Docker Images -.md",
+                "file": "Projects/Docker Ultimate Course/Containers in More Details.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Docker Ultimate Course/Docker Images -.md"
+                "file": "Projects/Docker Ultimate Course/Containers in More Details.md"
               }
             }
           },
@@ -157,8 +157,9 @@
   },
   "active": "b63e2cc05114e1ae",
   "lastOpenFiles": [
-    "Projects/Random Notes/commands_to_know.md",
     "Projects/Docker Ultimate Course/Docker Images -.md",
+    "Projects/Docker Ultimate Course/Containers in More Details.md",
+    "Projects/Random Notes/commands_to_know.md",
     "Projects/Docker Ultimate Course/Dockerfile.md",
     "Projects/Docker Ultimate Course/Sample Web Application.md",
     "Projects/Docker Ultimate Course/Dockerignore.md",
@@ -187,7 +188,6 @@
     "Projects/Docker Ultimate Course/Linux Hierarchy - File System.md",
     "Projects/Docker Ultimate Course/[app.md",
     "Projects/Docker Ultimate Course/Linux Distros.md",
-    "Projects/Docker Ultimate Course/hub.docker.com.md",
     "Projects/Apps",
     "Projects/Docker Ultimate Course",
     "Untitled 1.canvas",

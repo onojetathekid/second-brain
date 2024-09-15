@@ -42,11 +42,6 @@ docker image tag react-thekid:latest react-thekid:1
 // Update the latest tag to the most current image
 docker image tag b06 react-thekid:latest
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-:::::::::: sharing Images ::::::::::::::::::::::::::::::::::
-::: hub.docker.com/repository
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 // to tag the image to my docker hub repository
 docker image tag
 {
@@ -59,6 +54,18 @@ docker image tag 86e thekid72/react-thekid:2
 
 //to push image to docker hub
 <docker push thekid72/react-app:2>
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::: sharing Images ::::::::::::::::::::::::::::::::::
+::: hub.docker.com/repository
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+// to save the file as compressed file // .tar Linux
+docker image save  -o react-app.tar react-app:3
+
+//load  image from image compressed file
+docker image load -i react-app.tar
+
+
 
 
 
