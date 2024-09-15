@@ -47,9 +47,18 @@ docker image tag b06 react-thekid:latest
 ::: hub.docker.com/repository
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-// to push the image to my docker hub repository
+// to tag the image to my docker hub repository
+docker image tag
+{
+<86e>container Id/container name;
+docker hub acct name=<thekid72>;
+<react-app>image name/repository name / must match;
+<:2> - tag/version control
+}
 docker image tag 86e thekid72/react-thekid:2
-docker push thekid72/react-app:tagname
+
+//to push image to docker hub
+<docker push thekid72/react-app:2>
 
 
 
